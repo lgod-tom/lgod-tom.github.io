@@ -1,0 +1,68 @@
+<div ng-controller="rewardControl">
+
+<div><h3 id='miniTitle'><span>Selfie</span><span>City</span></h3></div>
+<!-- <div id = "backgroundImage"></div> -->
+
+<div id = "profileCard">
+<div class="col-lg-6 col-sm-6 col-lg-offset-3 col-sm-offset-3">
+    <div class="card hovercard">
+        <div class="card-background">
+            <img class="card-bkimg" alt="" src="http://lorempixel.com/100/100/people/9/">
+            <!-- http://lorempixel.com/850/280/people/9/ -->
+        </div>
+        <div class="useravatar">
+            <img alt="" src="/public/images/bowie.jpg">
+        </div>
+        <div class="card-info"> <span class="card-title">Darcy Wilkin</span>
+
+        </div>
+    </div>
+    <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button type="button" id="stars" class="btn btn-primary" href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                <div class="hidden-xs">Info</div>
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                <div class="hidden-xs">Badges</div>
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab">
+            	<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                <div class="hidden-xs">Recent Photos</div>
+            </button>
+        </div>
+    </div>
+
+        <div class="well">
+      <div class="tab-content">
+        <div class="tab-pane fade in active" id="tab1">
+          <ul>
+          	<li>Web Developer/Thrill Seeker/Music Lover and Creator</li>
+          	<li>Kalamazoo,MI</li>
+          	<li>Grand Circus - Detroit</li>
+          </ul>
+
+        </div>
+        <div class="tab-pane fade in" id="tab2">
+          <!-- <div ng-repeat="profileBadge in profileBadges">{{profileBadge}}</div> -->
+		<img class="profileBadge" ng-repeat="badge in badges" ng-src="{{badge.src}}" ng-class="{unearned: !badge.owned}">
+		<!-- <img class="profileBadge" src="/public/images/superhero.png">
+		<img class="profileBadge" src="/public/images/national.png">
+		<img class="profileBadge" src="/public/images/hart.png"> -->
+        </div>
+        <div class="tab-pane fade in" id="tab3">
+          <img src="/public/images/darcy1.jpg" width="168" height="168">
+          <img src="/public/images/darcy2.jpg" width="168" height="168">
+          <img src="/public/images/darcy4.jpg" width="168" height="168">
+        </div>
+      </div>
+    </div>
+    
+    </div>
+</div> 
+    
+
+

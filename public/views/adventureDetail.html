@@ -1,0 +1,28 @@
+
+<div><h3 id='miniTitle'><span>Selfie</span><span>City</span></h3></div>
+
+<div id='map'></div>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.js'></script>
+<script type="text/javascript">
+	L.mapbox.accessToken = 'pk.eyJ1IjoibGdvZC10b20iLCJhIjoiY2lsc2E2Y3Y4MDh4c3R5a245aXg1cHg5eiJ9.JXNc2afO-soiBxL0iHyMFw';
+		var map = L.mapbox.map('map', 'lgod-tom.pdn1c00d', {
+		    zoomControl: false
+		}).setView([42.3322, -83.0463], 15);
+</script>
+ 
+
+ <!-- <div map-box-map="", data-lat="42.3322", data-lng="-83.0463", data-zoom-level="15", data-map-id="'lgod-tom.pdn1c00d'", style="width : 100%;height: 600px;",data-zoom-control="true", data-markers="[[-83.04631,
+          42.329367],[-83.04631, 42.329367], [-83.04541, 42.333247],[-83.049747, 42.335963],[-83.047373, 42.33493],[-83.044924, 42.327125]]"></div> -->
+<div id="mapAlign">
+<iframe width='75%' height='600px' style="border:solid #3887BE 5px" src='map.html'></iframe>
+</div>
+
+
+
+<div ng-controller="mapCTRL" class="container">
+  <button ng-click="checkIn()" class="btn btn-info btn-lg" id="checkinButton">Check In!</button>
+    
+</div>

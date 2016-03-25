@@ -1,0 +1,35 @@
+<!-- <a href="./public/images/brodrick.jpg" data-featherlight="./public/images/brodrick.jpg"><img src="./public/images/brodrickThumb.jpg"></a>
+<a href="./public/images/darcy.jpg" data-featherlight="./public/images/darcy.jpg"><img src="./public/images/darcyThumb.jpg"></a>
+<p>
+<a href="#/view3"><button class="btn btn-info btn-lg">Back to the Map!</button></a>
+</p> -->
+
+
+<script>
+	$('.my-gallery').featherlightGallery({
+    filter: "a",
+    afterContent: function() {
+        this.$legend = this.$legend || $('<div class="legend"/>').insertAfter(this.$content);
+        this.$legend.text(this.$currentTarget.attr('alt'));
+    }
+});
+</script>
+<div class="row">
+  <h1 class="center">Grand Circus Photo Samples</h1>
+</div>
+<div class="row">
+    <div class="col-lg-6" id="photoDiv">
+<h3 class="photoTitle">Selfie</h3>
+<div class="my-gallery">
+  <a href="./public/images/darcy.jpg" alt="Just take a selfie"><img src="./public/images/darcyThumb.jpg" /></a>
+</div>
+</div>
+<div class="col-lg-6" id="photoDiv">
+  <h3 class="photoTitle">Pro Photo</h3>
+  <div class="my-gallery">  
+    <a href="./public/images/brodrick.jpg" alt="Weather: Cloudy | Aperture: f/2.8 | Shutter Speed: 1/125 | ISO: 1600"><img src="./public/images/brodrickThumb.jpg" /></a>
+  </div>
+</div>
+<div class="row">
+	<a href="#/view3"><button class="btn btn-info btn-lg photoButton">Back to the Map!</button></a>
+</div>

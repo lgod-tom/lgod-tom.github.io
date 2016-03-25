@@ -1,0 +1,139 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "title": "",
+      "description": "",
+      "stroke": "#1087bf",
+      "stroke-width": 4,
+      "stroke-opacity": 1,
+      "fill": "#1087bf",
+      "fill-opacity": 0.20000000298023224
+    },
+    },{
+      "type": "Feature",
+      "properties": {
+        "id": "marker-iltijf9q1",
+        "title": "Guardian Building",
+        "template": "<a href='public/views/modal/modal.html/'>",
+        "description": "While the outside of the building may not be much to look at just inside you will find some beautiful art-deco and mayan revival architecture, be sure to look at the ceiling! \n<img src=\"http://detroit1701.org/Graphics/Guardian%20Building%20New%202.jpg\">",
+        "marker-size": "medium",
+        "marker-color": "#f86767",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.04631,
+          42.329367
+        ],
+        "type": "Point"
+      },
+      "id": "790ba7b77476760b6a312e249016b6c1"
+     },{  
+    "geometry": {
+      "coordinates": [
+        [
+          [-83.05016,42.335885],
+          [-83.049752,42.336077],
+          [-83.049551,42.335951],
+          [-83.049999,42.335681],
+          [-83.05016,42.335885]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "id": "1835eef1b5e095836536d1e369517cad"
+  }, {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-ilthf72e3",
+      "title": "Superhero Alley",
+      "description": "Located in the alley next to historic music venue, St. Andrew's hall is a superhero mural depicting many different beloved characters.\n<img src=\"https://whyilovedetroit.files.wordpress.com/2014/04/8038_10101705865304073_920023475_n-e1398794247341.jpg\">",
+      "marker-size": "medium",
+      "marker-color": "#f86767",
+      "marker-symbol": "cross"
+    },
+    "geometry": {
+      "coordinates": [-83.041599, 42.332285],
+      "type": "Point"
+    },
+    "id": "2da8dedf0657eccad140ab3d089074f6"
+  }, {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-iltijf9q1",
+      "title": "Guardian Building",
+      "description": "While the outside of the building may not be much to look at just inside you will find some beautiful art-deco and mayan revival architecture, be sure to look at the ceiling! \n<img src=\"http://detroit1701.org/Graphics/Guardian%20Building%20New%202.jpg\">",
+      "marker-size": "medium",
+      "marker-color": "#f86767",
+      "marker-symbol": "cross"
+    },
+    "geometry": {
+      "coordinates": [-83.04631, 42.329367],
+      "type": "Point"
+    },
+    "id": "790ba7b77476760b6a312e249016b6c1"
+  }, {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-iltj288j2",
+      "title": "National Theatre",
+      "description": "The National Theatre is the only survivor from Detroit’s first theater district and the only surviving theater known to have been designed by renowned architect Albert Kahn.\n<img src=\"http://historicdetroit.org/image/2/324/0/5/images/nationalmain_0.jpg\" width=200px height =200px>",
+      "marker-size": "medium",
+      "marker-color": "#f86767",
+      "marker-symbol": "cross"
+    },
+    "geometry": {
+      "coordinates": [-83.04541, 42.333247],
+      "type": "Point"
+    },
+    "id": "829ad1ffcebc448396c501b23032ae94"
+  }, {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-iltg4nn20",
+      "title": "Grand Circus Detroit",
+      "description": "1570 Woodward Ave, Detroit, MI 48226\n<p>Grand Circus is passionate about training people for amazing careers in tech and helping local businesses grow by hiring local tech superstars.\n<p><a href=\"http://www.grandcircus.co/\" target=\"_blank\"><img src=\"http://neweconomyinitiative.org/wp-content/uploads/2014/04/gcircus.jpg\" width=200px height=200px></a></p></p>",
+      "marker-size": "medium",
+      "marker-color": "#f86767",
+      "marker-symbol": "cross"
+    },
+    "geometry": {
+      "coordinates": [-83.049747, 42.335963],
+      "type": "Point"
+    },
+    "id": "939f9bf7a23f8e4da63d62f18eb7537f"
+  }, {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-ilth52hi2",
+      "title": "The Belt Alley",
+      "description": "The alley is decorated with the work of world-renowned street artists and serves as the home to restaurants and pop-up shops.\n\n<img src=\"http://static1.squarespace.com/static/534868a7e4b0b51fbb0c8048/546d5289e4b0e21af44b5a4a/546d5392e4b058c1f8931f55/1416450963704/detroit_11.jpg\">\n\n",
+      "marker-size": "medium",
+      "marker-color": "#f86767",
+      "marker-symbol": "cross"
+    },
+    "geometry": {
+      "coordinates": [-83.047373, 42.33493],
+      "type": "Point"
+    },
+    "id": "998c014e0eafd3be142785a9fdd31c9a"
+  }, {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-iltibccf0",
+      "title": "Hart Plaza",
+      "description": "Sprawling 14-acre plaza is home to the iconic Dodge Fountain, some beautiful murals,  Jazz Fest & other major events.\n<img src=\"http://www.travelandtransitions.com/stories_photos/images/Detroit-Windsor2007/Oct21/HartPlaza.jpg?671f99\">",
+      "marker-size": "medium",
+      "marker-color": "#f86767",
+      "marker-symbol": "cross"
+    },
+    "geometry": {
+      "coordinates": [-83.044924, 42.327125],
+      "type": "Point"
+    },
+    "id": "b53c159c86f46ea652d7ccf658bb47cd"
+  }],
+  "id": "lgod-tom.pdn1c00d"
+}

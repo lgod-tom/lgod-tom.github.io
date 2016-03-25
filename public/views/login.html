@@ -1,0 +1,34 @@
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-route.min.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>    
+    <div class="container" data-ng-controller="FBController">
+    <h1 id='title'><span>Selfie</span><span>City</span></h1>
+      <img class= 'backImage' src="public/images/backgroundimages/comicselfie.jpg">
+        <p color:#fff; id='introText'>Your selfie. Curator of the city.</p>
+    <div class = "wrapper">
+       <div id="my-signin2"></div>
+  <script>
+    function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+  </script>
+
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script> 
+    </div>
+  </div>
+<div id = "backgroundImage"></div>
+
